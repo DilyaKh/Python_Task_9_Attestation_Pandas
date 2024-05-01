@@ -2,6 +2,7 @@
 
 ## ЗАДАНИЕ 
 
+
 В ячейке представлен код, генерирующий DataFrame, который состоит всего из 1 столбца:
 
 import random
@@ -15,6 +16,8 @@ random.shuffle(lst)
 data = pd.DataFrame({'whoAmI'lst})
 
 data.head() 
+
+---
 
 
 Задача состоит в том, чтобы перевести его в one hot вид. 
